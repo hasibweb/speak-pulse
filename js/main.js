@@ -6,7 +6,9 @@
     ==================================================*/
 
   // Window Load Function
-  $(window).on("load", function() {});
+  $(window).on("load", function() {
+    preloaderSetup();
+  });
 
   // Document Ready Function
   $(document).ready(function() {
@@ -27,4 +29,11 @@
       items: 1
     });
   }
+
+  // ========================== Preloader Setup ==========================
+  function preloaderSetup() {
+    $("#preloader").fadeOut("slow", function() {
+      $(this).remove();
+    });
+  } // preloaderSetup
 })(jQuery); // End of use strict
