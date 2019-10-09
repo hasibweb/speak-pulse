@@ -1,0 +1,146 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Buttons */
+.read-more {
+  padding: 6px 10px;
+  color: #00adef;
+  border: 1px solid #00adef;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+  display: inline;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #00adef;
+}
+
+/* Header */
+#top-header .download-app-link {
+  max-width: 100%;
+  margin-left: 0%;
+}
+#top-header .navbar-nav .nav-link {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2e3192;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: unset;
+  /* padding: 5px 16px 30px; */
+}
+
+/* Hero Slider */
+#hero-slider {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 1.5rem 0;
+  color: #fff;
+}
+#hero-slider h1 {
+  font-weight: bold;
+  color: #fff;
+}
+#hero-slider .item h4 {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+#hero-slider .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#hero-slider .owl-dots .owl-dot {
+  width: 12px;
+  height: 12px;
+  background: #00adef;
+  border-radius: 50%;
+  margin: 7px;
+}
+
+#hero-slider .owl-dots .owl-dot.active {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+}
+
+#hero-slider .slider-footer {
+  display: flex;
+  margin-top: 1.5rem;
+}
+#hero-slider .slider-footer li {
+  margin-right: 14px;
+  font-weight: bold;
+}
+
+#hero-slider .slider-footer p {
+  color: #a2a4c7;
+  font-size: 13px;
+}
+
+/* Main Right */
+.main-left .item {
+  border-bottom: 1px solid #d6d8e5;
+  color: #666666;
+}
+.main-left .item .read-more {
+  color: #2e3192;
+  border-color: #2e3192;
+}
+.main-left .item .read-more:hover {
+  background: #2e3192;
+  color: #fff;
+}
+
+.main-left .item h4 {
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d6d8e5;
+}
+/* Main Right */
+.main-right {
+  background: #f0f2f5;
+}
+.main-left .item {
+  border-bottom: 1px solid #d6d8e5;
+  color: #666666 !important;
+}
+
+.blog-footer li {
+  font-size: 14px;
+  font-weight: bold;
+}
