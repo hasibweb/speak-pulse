@@ -146,9 +146,9 @@ img {
   padding-bottom: 1rem;
   border-bottom: 1px solid #d6d8e5;
 }
-.blog-footer li {
-  font-size: 14px;
-  font-weight: bold;
+.blog-footer li p {
+  font-size: 14px !important;
+  color: #a2a4c7 !important;
 }
 
 /* Main Right */
@@ -253,8 +253,10 @@ img {
   font-weight: bold;
 }
 .blog-details-area {
-  padding: 4.5rem 2rem 4rem 3.6rem;
+  padding: 4.5rem 2rem 2rem 3.6rem;
   color: #666666;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 4rem;
 }
 .blog-details-area p,
 .blog-details-area h3,
