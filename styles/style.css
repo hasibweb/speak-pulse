@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
 }
 p {
   font-family: "Roboto Condensed", sans-serif;
@@ -95,7 +96,7 @@ img {
 #hero-slider .owl-dots {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #hero-slider .owl-dots .owl-dot {
   width: 12px;
@@ -234,4 +235,14 @@ img {
 #site-footer .footer-bottom p {
   color: #00adef;
   font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 9vw;
+  }
+  #top-header .navbar-brand {
+    width: 85%;
+  }
 }
