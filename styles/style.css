@@ -289,3 +289,19 @@ img {
     width: 85%;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  #navbarNav .navbar-nav .nav-link {
+    font-size: 19px;
+  }
+  #navbarNav .navbar-nav .nav-link .menu_hasi {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-right .right-content-middle {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+}
