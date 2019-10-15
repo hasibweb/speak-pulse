@@ -61,6 +61,15 @@ img {
   background-color: #00adef;
 }
 
+/* download button */
+#top-header .navbar-nav .nav-link .down-load-btn {
+  background: #2e3192;
+  color: #fff;
+  padding: 5px 11px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
 /* Header */
 #top-header .download-app-link {
   max-width: 100%;
