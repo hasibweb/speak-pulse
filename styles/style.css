@@ -316,6 +316,13 @@ img {
   #hero-area h1 {
     font-size: 35px;
   }
+  #top-header .navbar-nav {
+    text-align: center;
+  }
+  #top-header .navbar-nav .nav-link {
+    margin: 5px 10px;
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 768px) {
   #hero-area h1 {
